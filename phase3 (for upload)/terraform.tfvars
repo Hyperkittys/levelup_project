@@ -1,0 +1,1 @@
+supabase_key = "Your Actual Supabase Key"

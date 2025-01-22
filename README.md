@@ -71,8 +71,9 @@
 	•	목표: 애플리케이션 개발 및 배포 자동화 과정 익히기
 	•	주요 내용:
 	•	CI/CD 파이프라인 구축 (GitHub Actions, Jenkins 등)
-	•	코드 변경 시 자동으로 Docker 이미지 빌드 및 ECS/Fargate에 배포
+	•	코드 변경 시 aws CodePipeline을 통해 자동으로 ECS/Fargate에 배포 및 Postman을 통해 HTTPS 호출이 가능하도록 구현
 	•	AWS CloudWatch로 애플리케이션 상태 모니터링 및 로그 관리
+        •       Grafana로 모니터링 대시보드 구축 및 스트레스 테스트
 	•	Slack 연동: 팀 슬랙 채널과 연동하여 신규 가입자 알림, 오토스케일링 이벤트 알림을 Slack 메시지로 띄우기
 	•	실습: 간단한 GitHub Actions 워크플로우를 만들어 코드 변경 시 자동 배포 설정하고, AWS CloudWatch 알림을 Slack으로 전달받기
 
@@ -86,17 +87,7 @@
 	•	사용량 기반의 결제 시스템 구현 (Stripe 등 결제 API 연동)
 	•	실습: API Gateway를 통해 특정 요청에 대해 사용량 기반 과금 시스템 구현
 
-7단계: Infrastructure as Code (IaC)
-
-	•	목표: 클라우드 인프라를 코드로 관리하는 방법 익히기
-	•	주요 내용:
-	•	AWS CloudFormation 또는 Terraform을 이용한 인프라 자동화
-	•	ECS, API Gateway, Lambda 등의 인프라를 코드로 관리 및 배포
-	•	자동화된 환경 구축 (개발 환경, 테스트 환경, 프로덕션 환경)
-	•	IaC를 통한 버전 관리와 복구 용이성 확보
-	•	실습: Terraform 또는 CloudFormation을 사용해 ECS와 API Gateway를 포함한 전체 인프라를 코드로 구성하고, 이를 통한 자동화 배포
-
-8단계: 최종 프로젝트: 구독형 SaaS 개발 및 포트폴리오
+7단계: 최종 프로젝트: 구독형 SaaS 개발 및 포트폴리오
 
 	•	목표: 앞서 배운 모든 기술을 통합하여 포트폴리오용 구독형 SaaS 서비스 개발
 	•	주요 내용:

@@ -53,11 +53,11 @@
 
 	•	목표: TensorFlow.js를 이용해 간단한 AI 모델을 구현하고 이를 웹 애플리케이션과 연동하기
 	•	주요 내용:
-	•	ResNet 또는 비슷한 간단한 모델을 TensorFlow.js로 구현
+	•	MobileNet 또는 비슷한 간단한 모델을 TensorFlow.js로 구현
 	•	AI 모델 추론 과정에 필요한 프론트엔드 연동 (브라우저에서 모델 로드 및 추론)
 	•	Docker로 AI 모델 컨테이너화
 	•	GPU 사용을 고려한 Docker 설정 (필요시)
-	•	실습: TensorFlow.js로 ResNet 모델을 구현하고, 이를 도커로 컨테이너화해서 간단한 AI 서비스 제공
+	•	실습: TensorFlow.js로 MobileNet 모델을 구현하고, 이를 도커로 컨테이너화해서 간단한 AI 서비스 제공
 
 => 우선 ResNet 대신 MobileNet모델을 사용하였습니다.(이 모델이 좀더 성능이 좋다고 합니다. AI피셜) 
 구축 할때에 Tensorflow설치 오류가 있었는데 기존 최신버전 Nodejs를 nvm을 사용하여 18LTS버전으로 다운그레이드 시켰고 아예** PC를 재부팅후 다시 설치하니 해결** 됬습니다..
